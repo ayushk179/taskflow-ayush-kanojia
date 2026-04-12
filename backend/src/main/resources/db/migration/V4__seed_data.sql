@@ -7,7 +7,7 @@ VALUES (
     '11111111-1111-1111-1111-111111111111',
     'Test User',
     'test@taskflow.com',
-    '$2a$12$KbQiQqvV3Yl8n3p6zZ8r6uR9QFz8rRzQY0vGZsP6l7YQG1yPp9Xy6'
+    '$2a$12$Oz4zXyu1/esGO2u7JdRcZ.xv0.y54u/2yqKp04bNSf9P488Xmdr.m'
 );
 
 -- Insert project
