@@ -39,19 +39,29 @@ User who created a task
 ✔ Can delete task (if allowed by rules)
 
 Authorization Rules
+
 Projects
+
 GET /projects → owner + task participants
 PATCH/DELETE /projects/:id → owner only
+
 Tasks
+
 GET /projects/:id/tasks → owner or participants
+
 POST /projects/:id/tasks → project access required
+
 PATCH /tasks/:id → assignee / owner / creator
+
 DELETE /tasks/:id → owner or task creator
+
 Example Logic
 boolean isParticipant =
     taskRepository.existsByProjectIdAndAssigneeId(projectId, userId) ||
     taskRepository.existsByProjectIdAndCreatedById(projectId, userId);
+	
 ⚙️ Tech Stack
+
 Java 21
 Spring Boot 3
 Spring Security + JWT
@@ -60,7 +70,9 @@ PostgreSQL
 Flyway
 Docker + Docker Compose
 Maven
+
 🏗 Architecture
+
 Layered Design
 Controller → API layer
 Service → business logic
@@ -79,6 +91,7 @@ Database
 PostgreSQL
 Schema managed via Flyway migrations
 No Hibernate auto-DDL
+
 🐳 Running Locally
 Prerequisites
 Docker
