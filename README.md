@@ -510,9 +510,13 @@ Simple error handling
 # Add database indexes on frequently queried columns such as:
 
 user.email
+
 task.project_id
+
 task.assignee_id
+
 task.status
+
 project.owner_id
 
 This was intentionally skipped due to time constraints to focus on core API functionality.
