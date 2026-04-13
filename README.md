@@ -501,13 +501,13 @@ No async/event system
 Simple error handling
 
 
-🚀 Future Improvements
+## 🚀 Future Improvements
 
-## Notes on Bonus Requirements
+# Notes on Bonus Requirements
 - The bonus requirement of **at least 3 integration tests for auth/task endpoints was partially started but not fully completed within the given time window**
 - Priority was given to completing core API functionality, authentication flow, and database design first
 
-## Add database indexes on frequently queried columns such as:
+# Add database indexes on frequently queried columns such as:
 
 user.email
 task.project_id
