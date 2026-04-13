@@ -62,7 +62,9 @@ boolean isParticipant =
 	
 ⚙️ Tech Stack
 
-Java 21
+Although Go was suggested as the preferred language, I have implemented the backend using Java with Spring Boot, as I am more proficient with this stack in my current role. This ensured faster development, better confidence in system design decisions, and allowed me to focus on delivering a complete, production-ready solution within the given time constraints.
+
+Java 17
 Spring Boot 3
 Spring Security + JWT
 Spring Data JPA
