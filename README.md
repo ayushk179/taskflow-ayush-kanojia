@@ -490,6 +490,7 @@ Password: password123
 ```
 
 📌 Design Decisions
+
 Why this architecture?
 Keeps business logic isolated
 Easy to scale later
@@ -498,13 +499,22 @@ Tradeoffs
 No caching (Redis)
 No async/event system
 Simple error handling
+
+
 🚀 Future Improvements
+
+## Notes on Bonus Requirements
+- The bonus requirement of **at least 3 integration tests for auth/task endpoints was partially started but not fully completed within the given time window**
+- Priority was given to completing core API functionality, authentication flow, and database design first
+
+Add Integration tests
 Add Redis caching
 Improve error standardization
 Add refresh tokens
 Add rate limiting
 Add full test coverage
 Add Swagger/OpenAPI docs
+
 🧾 Summary
 
 TaskFlow is a clean, production-style backend system with:
