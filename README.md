@@ -507,6 +507,16 @@ Simple error handling
 - The bonus requirement of **at least 3 integration tests for auth/task endpoints was partially started but not fully completed within the given time window**
 - Priority was given to completing core API functionality, authentication flow, and database design first
 
+## Add database indexes on frequently queried columns such as:
+
+user.email
+task.project_id
+task.assignee_id
+task.status
+project.owner_id
+
+This was intentionally skipped due to time constraints to focus on core API functionality.
+
 Add Integration tests
 Add Redis caching
 Improve error standardization
